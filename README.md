@@ -1,6 +1,8 @@
 # GDMechanic
 An API designed to streamline C# with Godot Engine without changing any fundamentals. It utilizes cached reflection for optimal performance, and provides power to easily extend the API with your own attributes.
 
+Install Package from NuGet: [![NuGet](https://img.shields.io/badge/GDMechanic-1.0.0--alpha-blue.svg)](https://www.nuget.org/packages/GDMechanic/)
+
 ## Status
 GDMechanic is functionally complete, but a few features are not fully tested.
 
