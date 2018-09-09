@@ -13,7 +13,7 @@ namespace GDMechanic.Wiring.Attributes
 		private readonly SourceTypes _sourceType;
 		
 		/// <summary>
-		/// Connects a specified signal from a specified source.
+		/// Connects the specified signal from the specified source.
 		/// </summary>
 		/// <remarks>
 		/// <c>SourceTypes.Path</c> (default): Reads <c>source</c> as a node path.

@@ -186,7 +186,7 @@
         </member>
         <member name="M:GDMechanic.Wiring.Attributes.SignalReceiverAttribute.#ctor(System.String,System.String,GDMechanic.Wiring.Attributes.SourceTypes)">
             <summary>
-            Connects a specified signal from a specified source.
+            Connects the specified signal from the specified source.
             </summary>
             <remarks>
             <c>SourceTypes.Path</c> (default): Reads <c>source</c> as a node path.
