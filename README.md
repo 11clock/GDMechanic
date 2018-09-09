@@ -81,4 +81,36 @@ public class Teddy : Node2D
 }
 ```
 
- 
+#### SignalReceiver
+Connects the specified signal from the specified source. The source can either be a node path or a reference from a field on the same node.
+
+```cs
+[Child] private Button _button2;
+
+[SignalReceiver("Button", "pressed")]
+public void OnButtonPressed()
+{
+	...
+}
+
+[SignalReceiver("_button2", "pressed", SourceTypes.Reference)]
+public void OnButton2Pressed()
+{
+	...
+}
+```
+
+#### Timer
+Adds a child Timer node with the specified criteria, and assigns a reference to it to the field.
+
+```cs
+[Timer(nameof(OnTimerTimeout), waitTime: 1.5f, oneShot: true)]
+private Timer _timer;
+```
+
+##### Starting Timer with Custom Wait Time
+GDMechanic provides an extension method to Timer that makes it easy to start a timer with a different wait time, without overriding the default.
+```cs
+_timer.Start(6f);
+```
+
