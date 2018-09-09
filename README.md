@@ -8,7 +8,7 @@ Most documentation is provided, but extensions are not yet documented.
 
 GDMechanic was created with Godot 3.1 alpha, but should theoretically work with older 3.X versions.
 
-Until C# support in Godot is finalized, GDMechanic will remain in an alpha state.
+Until C# support in Godot is finalized, GDMechanic will be considered to be in an alpha state.
 
 ## Wiring
 GDMechanic provides a set of core attributes for wiring fields, properties, and methods.
