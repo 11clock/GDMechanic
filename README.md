@@ -121,7 +121,9 @@ _timer.Start(6f);
 You can create your own attributes quite easily. Create a class that extends Attribute and implement IStateWirer, IMethodWirer, or IClassWirer. Also, be sure to add the corresponding attribute targets to the attribute via AttributeUsage.
 
 `IStateWirer:	AttributeTargets.Field | AttributeTargets.Property`
+
 `IMethodWirer:	AttributeTargets.Method`
+
 `IClassWirer:	AttributeTargets.Class`
 
 Then implement the necessary methods. GDMechanic will automatically be able to use it.
@@ -148,6 +150,20 @@ public class NodeAttribute : MechanicAttribute, IStateWirer
 		state.SetValue(node, node.GetNode(_path));
 	}
 }
+```
+
+## Extensions
+
+GDMechanic provides extension methods for various nodes. Here are some examples.
+
+```cs
+public static T InstanceToParent<T>(this PackedScene packedScene, Node parent) where T: Node
+```
+```cs
+public static IEnumerable<object> GetNodesOfType<T>(this SceneTree sceneTree) where T : Node
+```
+```cs
+public static void TranslateX(this Node2D node, float xDisplacement)
 ```
 
 ## Rng
