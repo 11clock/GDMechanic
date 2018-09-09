@@ -115,6 +115,38 @@ GDMechanic provides an extension method to Timer that makes it easy to start a t
 ```cs
 _timer.Start(6f);
 ```
+### Custom Attributes
+You can create your own attributes quite easily. Create a class that extends Attribute and implement IStateWirer, IMethodWirer, or IClassWirer. Also, be sure to add the corresponding attribute targets to the attribute via AttributeUsage.
+
+`IStateWirer:	AttributeTargets.Field | AttributeTargets.Property`
+`IMethodWirer:	AttributeTargets.Method`
+`IClassWirer:	AttributeTargets.Class`
+
+Then implement the necessary methods. GDMechanic will automatically be able to use it.
+
+Example from NodeAttribute:
+
+```cs
+[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+public class NodeAttribute : MechanicAttribute, IStateWirer
+{
+
+	private readonly string _path;
+
+	/// <summary>
+	/// Returns a reference to a node based on the provided node path.
+	/// </summary>
+	/// <param name="path"></param>
+	public NodeAttribute(string path) {
+		_path = path;
+	}
+
+	public void Wire(Node node, CachedNodeStateInfo state)
+	{
+		state.SetValue(node, node.GetNode(_path));
+	}
+}
+```
 
 ## Rng
 Reimplementation of GDScript's "rand" functions.
