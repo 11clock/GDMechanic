@@ -1,0 +1,11 @@
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Release\GDMechanic.xml
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Release\GDMechanic.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Release\GDMechanic.pdb
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Release\GodotSharp.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Release\Sigil.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Release\Sigil.xml
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Release\GDMechanic.csprojAssemblyReference.cache
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Release\GDMechanic.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Release\GDMechanic.csproj.CopyComplete
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Release\GDMechanic.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Release\GDMechanic.pdb

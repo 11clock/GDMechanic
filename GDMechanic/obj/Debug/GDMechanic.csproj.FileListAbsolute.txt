@@ -1,0 +1,11 @@
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Debug\GDMechanic.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Debug\GDMechanic.pdb
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Debug\GodotSharp.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Debug\Sigil.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Debug\Sigil.xml
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Debug\GDMechanic.csprojAssemblyReference.cache
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Debug\GDMechanic.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Debug\GDMechanic.csproj.CopyComplete
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Debug\GDMechanic.dll
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\obj\Debug\GDMechanic.pdb
+C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic\GDMechanic\bin\Debug\GDMechanic.xml

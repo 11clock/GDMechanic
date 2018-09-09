@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GDMechanic</name>
+    </assembly>
+    <members>
+        <member name="T:GDMechanic.Rng">
+            <summary>
+             Reimplementation of GDScript's "rand" functions.
+            </summary>
+            <remarks>
+            Uses System.Random under the hood, so it will not have the same output as GDScript's "rand" functions.
+            </remarks>
+        </member>
+        <member name="M:GDMechanic.Rng.RandRange(System.Single,System.Single)">
+            <summary>
+            Random range, any floating point value between <c>from</c> and <c>to</c>.
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+        </member>
+        <member name="M:GDMechanic.Rng.Randf">
+            <summary>
+            Returns a random floating point value between 0 and 1.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.Rng.Randi">
+            <summary>
+            Returns a random 32 bit integer.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.Rng.Randomize">
+            <summary>
+            Randomizes the seed (or the internal state) of the random number generator.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.Rng.Seed(System.Int32)">
+            <summary>
+            Sets seed for the random number generator.
+            </summary>
+            <param name="seed"></param>
+        </member>
+        <member name="M:GDMechanic.Rng.RandRange(System.Int32,System.Int32)">
+            <summary>
+            Random range, any integer value between <c>from</c> and <c>to</c> exclusive.
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+        </member>
+        <member name="M:GDMechanic.Rng.RandRange(System.Int32)">
+            <summary>
+            Random range, any integer value between 0 and <c>to</c> exclusive.
+            </summary>
+            <param name="to"></param>
+        </member>
+        <member name="M:GDMechanic.Rng.RandRange(System.Single)">
+            <summary>
+            Random range, any floating point value between 0 and <c>to</c>.
+            </summary>
+            <param name="to"></param>
+        </member>
+        <member name="M:GDMechanic.Rng.Chance(System.Single)">
+            <summary>
+            Randomly returns true or false, based on <c>ratio</c>.
+            </summary>
+            <param name="ratio"></param>
+        </member>
+        <member name="T:GDMechanic.TimerSystem">
+            <summary>
+            Node that organizes a collection of timers for easy access through delegates.
+            </summary>
+            <remarks>
+            Designed to be used with <c>TimerSystemAttribute</c> and <c>TimerReceiverAttribute</c>,
+            although it is fully functional on its own.
+            </remarks>
+        </member>
+        <member name="P:GDMechanic.TimerSystem.Timers">
+            <summary>
+            Dictionary of timers that matches "timeout" method names with corresponding timers.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.TimerSystem.AddTimer(GDMechanic.TimerSystem.TimeoutDelegate,Godot.Timer.TimerProcessMode,System.Single,System.Boolean,System.Boolean)">
+            <summary>
+            Generates a new child timer and adds it to the dictionary.
+            </summary>
+            <param name="timeoutMethod"></param>
+            <param name="processMode"></param>
+            <param name="waitTime"></param>
+            <param name="oneShot"></param>
+            <param name="autostart"></param>
+            <returns>A reference to the generated Timer.</returns>
+        </member>
+        <member name="M:GDMechanic.TimerSystem.AddTimer(System.String,Godot.Timer.TimerProcessMode,System.Single,System.Boolean,System.Boolean)">
+            <summary>
+            Generates a new child timer and adds it to the dictionary.
+            </summary>
+            <param name="timeoutName"></param>
+            <param name="processMode"></param>
+            <param name="waitTime"></param>
+            <param name="oneShot"></param>
+            <param name="autostart"></param>
+            <returns>A reference to the generated Timer.</returns>
+        </member>
+        <member name="M:GDMechanic.TimerSystem.Start(GDMechanic.TimerSystem.TimeoutDelegate)">
+            <summary>
+            Starts a timer. This also resets the remaining time to <c>waitTime</c>.
+            </summary>
+            <param name="timeoutMethod"></param>
+        </member>
+        <member name="M:GDMechanic.TimerSystem.Start(GDMechanic.TimerSystem.TimeoutDelegate,System.Single)">
+            <summary>
+            Starts a timer with a custom starting time.
+            </summary>
+            <param name="timeoutMethod"></param>
+            <param name="time"></param>
+        </member>
+        <member name="M:GDMechanic.TimerSystem.Stop(GDMechanic.TimerSystem.TimeoutDelegate)">
+            <summary>
+            Stops (cancels) a timer.
+            </summary>
+            <param name="timeoutMethod"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.ChildAttribute.#ctor(GDMechanic.Wiring.Attributes.MatchTypes)">
+            <summary>
+            Returns a reference to a child based on match type.
+            </summary>
+            <remarks>
+            <c>MatchTypes.Name</c> (default): Fetches the child based on the field/property name converted to PascalCase.
+            </remarks>
+            <remarks>
+            <c>MatchTypes.Type</c>: Fetches the first child that matches the field/property's type.
+            </remarks>
+            <param name="matchType"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.GroupAttribute.#ctor(System.String)">
+            <summary>
+            Adds this node to the specified group.
+            </summary>
+            <param name="group"></param>
+        </member>
+        <member name="T:GDMechanic.Wiring.Attributes.MechanicAttribute">
+            <summary>
+            Base class for GDMechanic's core attributes. Not required to be extended for wiring.
+            </summary>
+            <remarks>
+            Only exists for core organization purses.
+            </remarks>
+        </member>
+        <member name="T:GDMechanic.Wiring.Attributes.IStateWirer">
+            <summary>
+            Registers an attribute to be wired based on field/property.
+            </summary>
+        </member>
+        <member name="T:GDMechanic.Wiring.Attributes.IMethodWirer">
+            <summary>
+            Registers an attribute to be wired based on method.
+            </summary>
+        </member>
+        <member name="T:GDMechanic.Wiring.Attributes.IClassWirer">
+            <summary>
+            Registers an attribute to be wired based on class/type.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.NodeAttribute.#ctor(System.String)">
+            <summary>
+            Returns a reference to a node based on the provided node path.
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.ParentAttribute.#ctor">
+            <summary>
+            Returns a reference to the node's parent.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.SiblingAttribute.#ctor(GDMechanic.Wiring.Attributes.MatchTypes)">
+            <summary>
+            Returns a reference to a sibling based on match type.
+            </summary>
+            <remarks>
+            <c>MatchTypes.Name</c> (default): Fetches the sibling based on the field/property name converted to PascalCase.
+            </remarks>
+            <remarks>
+            <c>MatchTypes.Type</c>: Fetches the first sibling that matches the field/property's type.
+            </remarks>
+            <param name="matchType"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.SignalReceiverAttribute.#ctor(System.String,System.String,GDMechanic.Wiring.Attributes.SourceTypes)">
+            <summary>
+            Connects a specified signal from a specified source.
+            </summary>
+            <remarks>
+            <c>SourceTypes.Path</c> (default): Reads <c>source</c> as a node path.
+            </remarks>
+            <remarks>
+            <c>SourceTypes.Reference</c>: Reads <c>source</c> as the name of a field under the target node which contains a reference to the source node.
+            </remarks>
+            <param name="source"></param>
+            <param name="signal"></param>
+            <param name="sourceType"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.TimerAttribute.#ctor(System.String,Godot.Timer.TimerProcessMode,System.Single,System.Boolean,System.Boolean)">
+            <summary>
+            Adds a child <c>Timer</c> node with the specified criteria, and assigns a reference to it to the field.
+            </summary>
+            <param name="timeoutMethod"></param>
+            <param name="processMode"></param>
+            <param name="waitTime"></param>
+            <param name="oneShot"></param>
+            <param name="autostart"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.TimerReceiverAttribute.#ctor(Godot.Timer.TimerProcessMode,System.Single,System.Boolean,System.Boolean)">
+            <summary>
+            Specifies a method to be connected to a <c>timer</c> in the node's <c>TimerSystem</c>.
+            </summary>
+            <remarks>
+            Can be embedded with either the <c>TimerSystem</c> field itself with the specified timeout method, or directly with the timeout method itself.
+            </remarks>
+            <param name="processMode"></param>
+            <param name="waitTime"></param>
+            <param name="oneShot"></param>
+            <param name="autostart"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.TimerReceiverAttribute.#ctor(System.String,Godot.Timer.TimerProcessMode,System.Single,System.Boolean,System.Boolean)">
+            <inheritdoc />
+            <param name="timeoutMethod"></param>
+            <param name="processMode"></param>
+            <param name="waitTime"></param>
+            <param name="oneShot"></param>
+            <param name="autostart"></param>
+        </member>
+        <member name="M:GDMechanic.Wiring.Attributes.TimerSystemAttribute.#ctor">
+            <summary>
+            Adds a child <c>TimerSystem</c> node, and assigns a reference to it to the field.
+            Also generates timers based on embedded <c>TimerReceiverAttribute</c>s in the node.
+            </summary>
+            <remarks>
+            Does not work with <c>TimerAttribute</c>. Use <c>TimerReceiverAttribute</c> instead for <c>TimerSystem</c> compatibility.
+            </remarks>
+            <remarks>
+            <c>TimerAttribute</c> is meant for individual timer references not related to a <c>TimerSystem</c>.
+            </remarks>
+        </member>
+        <member name="T:GDMechanic.Wiring.CachedNodeInfos.CachedNodeMemberInfo">
+            <summary>
+            Provides a base for cached node-related MemberInfos.
+            </summary>
+        </member>
+        <member name="T:GDMechanic.Wiring.CachedNodeInfos.CachedNodeMethodInfo">
+            <summary>
+            Wrapper for a cached node-related MethodInfo.
+            </summary>
+        </member>
+        <member name="P:GDMechanic.Wiring.CachedNodeInfos.CachedNodeMethodInfo.Method">
+            <summary>
+            The original MethodInfo that has been cached.
+            </summary>
+        </member>
+        <member name="T:GDMechanic.Wiring.CachedNodeInfos.CachedNodeStateInfo">
+            <summary>
+            Wrapper for a cached node-related FieldInfo or PropertyInfo.
+            </summary>
+        </member>
+        <member name="P:GDMechanic.Wiring.CachedNodeInfos.CachedNodeStateInfo.State">
+            <summary>
+            The original FieldInfo or PropertyInfo that has been cached.
+            </summary>
+        </member>
+        <member name="T:GDMechanic.Wiring.CachedNodeInfos.CachedNodeType">
+            <summary>
+            Wrapper for a cached node-related Type and corresponding cached members.
+            </summary>
+        </member>
+        <member name="P:GDMechanic.Wiring.CachedNodeInfos.CachedNodeType.Type">
+            <summary>
+            The original Type that has been cached.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.Wiring.Utils.NormalizeMemberName(System.String)">
+            <summary>
+            Converts <c>name</c> to PascalCase.
+            </summary>
+            <param name="name"></param>
+            <returns>The normalized name.</returns>
+        </member>
+        <member name="T:GDMechanic.Wiring.Core">
+            <summary>
+            The foundation of GDMechanic's wiring system.
+            </summary>
+        </member>
+        <member name="M:GDMechanic.Wiring.Core.Wire(Godot.Node)">
+            <summary>
+            Wires all GDMechanic attributes embedded in this node's class definition.
+            To be called in _Ready() for any nodes that use GDMechanic's wiring.
+            </summary>
+            <param name="node"></param>
+        </member>
+    </members>
+</doc>

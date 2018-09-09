@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Justin\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Justin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Justin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_GDMechanic.340640378.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Justin\Documents\Godot\Mono Projects\GDMechanic" t="IncludeFlat">
+      <e p="GDMechanic" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="extensions" t="Include">
+          <e p="Node2DExtensions.cs" t="Include" />
+          <e p="NodeExtensions.cs" t="Include" />
+          <e p="PackedSceneExtensions.cs" t="Include" />
+          <e p="SceneTreeExtensions.cs" t="Include" />
+          <e p="SpatialExtensions.cs" t="Include" />
+          <e p="TimerExtensions.cs" t="Include" />
+        </e>
+        <e p="GDMechanic.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Rng.cs" t="Include" />
+        <e p="TimerSystem.cs" t="Include" />
+        <e p="Wiring" t="Include">
+          <e p="Attributes" t="Include">
+            <e p="ChildAttribute.cs" t="Include" />
+            <e p="Enums.cs" t="Include" />
+            <e p="GroupAttribute.cs" t="Include" />
+            <e p="MechanicAttribute.cs" t="Include" />
+            <e p="NodeAttribute.cs" t="Include" />
+            <e p="ParentAttribute.cs" t="Include" />
+            <e p="SiblingAttribute.cs" t="Include" />
+            <e p="SignalReceiverAttribute.cs" t="Include" />
+            <e p="TimerAttribute.cs" t="Include" />
+            <e p="TimerReceiverAttribute.cs" t="Include" />
+            <e p="TimerSystemAttribute.cs" t="Include" />
+          </e>
+          <e p="CachedNodeInfos" t="Include">
+            <e p="CachedNodeMemberInfo.cs" t="Include" />
+            <e p="CachedNodeMethodInfo.cs" t="Include" />
+            <e p="CachedNodeStateInfo.cs" t="Include" />
+            <e p="CachedNodeType.cs" t="Include" />
+          </e>
+          <e p="Core.cs" t="Include" />
+          <e p="NodeWrench.cs" t="Include" />
+          <e p="Utils.cs" t="Include" />
+        </e>
+      </e>
+      <e p="GDMechanic.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
