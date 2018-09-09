@@ -114,3 +114,66 @@ GDMechanic provides an extension method to Timer that makes it easy to start a t
 _timer.Start(6f);
 ```
 
+## Rng
+Reimplementation of GDScript's "rand" functions.
+It uses System.Random under the hood, so it will not have the same output as GDScript's "rand" functions.
+
+```cs
+Rng.RandRange(0f, 6f);
+```
+
+### Rng.Chance
+Randomly returns true or false, based on the specified ratio.
+
+```cs
+if (Rng.Chance(0.05f))
+{
+	GD.Print("Critical hit!");
+}
+```
+
+## TimerSystem
+Node that organizes a collection of timers for easy access through delegates. It is designed to be used with TimerSystemAttribute and TimerReceiverAttribute, although it is fully functional on its own.
+
+```cs
+[TimerSystem]
+private TimerSystem _timerSystem;
+
+public void StartTimer() {
+	_timerSystem.Start(OnTimerTimeout);
+}
+[TimerReceiver(waitTime: 0.25f, oneShot: true)]
+public void OnTimerTimeout()
+{
+	...
+}
+
+[TimerReceiver(waitTime: 3f, oneShot: true)]
+public void OnDeathTimeout()
+{
+	...
+}
+```
+
+Alternatively you can place TimerReceiverAttribute on the same field as the TimerSystem reference.
+
+```cs
+[TimerSystem]
+[TimerReceiver(nameof(OnTimerTimeout), waitTime: 0.25f, oneShot: true)]
+private TimerSystem _timerSystem;
+
+public void StartTimer() {
+	_timerSystem.Start(OnTimerTimeout);
+}
+
+public void OnTimerTimeout()
+{
+	...
+}
+
+[TimerReceiver(waitTime: 3f, oneShot: true)]
+public void OnDeathTimeout()
+{
+	...
+}
+```
