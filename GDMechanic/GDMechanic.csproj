@@ -68,6 +68,7 @@
     <Compile Include="Wiring\Attributes\TimerAttribute.cs" />
     <Compile Include="Wiring\Attributes\TimerReceiverAttribute.cs" />
     <Compile Include="Wiring\Attributes\TimerSystemAttribute.cs" />
+    <Compile Include="Wiring\Attributes\TreeNodeAttribute.cs" />
     <Compile Include="Wiring\CachedNodeInfos\CachedNodeMemberInfo.cs" />
     <Compile Include="Wiring\CachedNodeInfos\CachedNodeMethodInfo.cs" />
     <Compile Include="Wiring\CachedNodeInfos\CachedNodeStateInfo.cs" />

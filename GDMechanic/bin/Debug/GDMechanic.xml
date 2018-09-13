@@ -240,6 +240,11 @@
             <c>TimerAttribute</c> is meant for individual timer references not related to a <c>TimerSystem</c>.
             </remarks>
         </member>
+        <member name="M:GDMechanic.Wiring.Attributes.TreeNodeAttribute.#ctor">
+            <summary>
+            Fetches the first node in the tree that matches the field/property's type.
+            </summary>
+        </member>
         <member name="T:GDMechanic.Wiring.CachedNodeInfos.CachedNodeMemberInfo">
             <summary>
             Provides a base for cached node-related MemberInfos.
