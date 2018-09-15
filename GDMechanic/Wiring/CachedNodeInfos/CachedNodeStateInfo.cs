@@ -40,7 +40,7 @@ namespace GDMechanic.Wiring.CachedNodeInfos
 
 		public object GetValue(Node node)
 		{
-			if (_setValue != null)
+			if (_getValue != null)
 			{
 				return _getValue(node);
 			}
@@ -102,7 +102,8 @@ namespace GDMechanic.Wiring.CachedNodeInfos
 				
 					break;
 				case PropertyInfo property:
-					if (property.PropertyType.GetTypeInfo().IsValueType)
+					if (property.PropertyType.GetTypeInfo().IsValueType
+						|| property.GetGetMethod(true) == null)
 					{
 						// Code emission doesn't work on primitives.
 						return null;
@@ -152,7 +153,8 @@ namespace GDMechanic.Wiring.CachedNodeInfos
 					break;
 			
 				case PropertyInfo property:
-					if (property.PropertyType.GetTypeInfo().IsValueType)
+					if (property.PropertyType.GetTypeInfo().IsValueType
+					    || property.GetSetMethod(true) == null)
 					{
 						// Code emission doesn't work on primitives.
 						return null;

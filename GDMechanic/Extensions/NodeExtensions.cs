@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Godot;
 
@@ -82,6 +83,10 @@ namespace GDMechanic.Extensions
 
 		public static T GetChildOfTypeDeep<T>(this Node node) where T : Node {
 			return node.GetChildrenDeep().OfType<T>().FirstOrDefault();
+		}
+		
+		public static Node GetChildOfTypeDeep(this Node node, Type type) {
+			return node.GetChildrenDeep().Cast<Node>().FirstOrDefault(type.IsInstanceOfType);
 		}
 	}
 }

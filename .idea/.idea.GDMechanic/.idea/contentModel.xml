@@ -8,6 +8,7 @@
       <e p="GDMechanic" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="extensions" t="Include">
+          <e p="AnimatedSpriteExtensions.cs" t="Include" />
           <e p="Node2DExtensions.cs" t="Include" />
           <e p="NodeExtensions.cs" t="Include" />
           <e p="PackedSceneExtensions.cs" t="Include" />
@@ -36,6 +37,7 @@
             <e p="TimerAttribute.cs" t="Include" />
             <e p="TimerReceiverAttribute.cs" t="Include" />
             <e p="TimerSystemAttribute.cs" t="Include" />
+            <e p="TreeNodeAttribute.cs" t="Include" />
           </e>
           <e p="CachedNodeInfos" t="Include">
             <e p="CachedNodeMemberInfo.cs" t="Include" />
