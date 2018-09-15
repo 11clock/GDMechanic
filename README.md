@@ -8,7 +8,7 @@ GDMechanic is functionally complete, but a few features are not fully tested.
 
 Most documentation is provided, but extensions are not yet documented.
 
-GDMechanic was created with Godot 3.1 alpha, but should theoretically work with older 3.X versions.
+GDMechanic was created with Godot 3.1 alpha, and does not work in earlier versions due to namespace changes between 3.0.6 and 3.1 in GodotSharp.
 
 Until C# support in Godot is finalized, GDMechanic will be considered to be in an alpha state.
 
