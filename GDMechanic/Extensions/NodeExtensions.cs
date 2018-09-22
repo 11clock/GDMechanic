@@ -7,9 +7,14 @@ namespace GDMechanic.Extensions
 {
 	public static class NodeExtensions
 	{
-		public static T AddAndReturnChild<T>(this Node node, T newChild) where T : Node {
-			node.AddChild(newChild);
-			return newChild;
+		public static T AddAndReturnChild<T>(this Node node, T child) where T : Node {
+			node.AddChild(child);
+			return child;
+		}
+		
+		public static T RemoveAndReturnChild<T>(this Node node, T child) where T : Node {
+			node.RemoveChild(child);
+			return child;
 		}
 	
 		public static Timer ConnectTimer(this Node node, NodePath path, string method) {

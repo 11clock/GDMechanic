@@ -17,7 +17,7 @@ namespace GDMechanic.Wiring
 
 		public static readonly Dictionary<Type, CachedNodeType> CachedNodeTypes = new Dictionary<Type, CachedNodeType>();
 	
-		public static BindingFlags Filter => BindingFlags.DeclaredOnly | BindingFlags.Public | BindingFlags.NonPublic |
+		public static BindingFlags Filter => BindingFlags.Public | BindingFlags.NonPublic |
 		                                     BindingFlags.Instance;
 	
 		static Core()

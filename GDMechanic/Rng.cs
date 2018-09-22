@@ -69,7 +69,7 @@ namespace GDMechanic
 		/// </summary>
 		/// <param name="from"></param>
 		/// <param name="to"></param>
-		public static float RandRange(int from, int to)
+		public static int RandRange(int from, int to)
 		{
 			return _rand.Next(from, to);
 		}
