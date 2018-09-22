@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GDMechanic</id>
-    <version>1.0.0-alpha3</version>
+    <version>1.0.0-alpha4</version>
     <authors>Justin Priester</authors>
     <owners>11clock</owners>
     <licenseUrl>https://github.com/11clock/GDMechanic</licenseUrl>
@@ -10,9 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An API designed to streamline C# with Godot Engine without changing any fundamentals. It utilizes cached reflection for optimal performance, and provides power to easily extend the API with your own attributes.</description>
     <releaseNotes>
-	New TreeNode (for early prototyping purposes,
-	more extension methods for AnimatedSprite,
-	and a fix for caching properties with no getters or setters.
+	Added Shuffle method to Rng for shuffling lists (extension method of IList).
+	Enabled inherited caching (GDMechanic attributes now work on inherited members at the cost of longer caching time).
+	Extensions for Vector2 and Vector3, support for converting between the two.
+	RemoveAndReturnChild extension for Node.
 	If you are updating from 1.0.0-alpha(1), make sure to reimport GodotSharp. This only applies to alpha(1).
 	</releaseNotes>
     <copyright>Copyright 2018</copyright>

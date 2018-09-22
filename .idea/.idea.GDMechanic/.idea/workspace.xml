@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="692f2cbc-1e2a-41e7-8c16-507b11d82dce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDMechanic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GDMechanic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GDMechanic/Extensions/NodeExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/Extensions/NodeExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GDMechanic/bin/Debug/GDMechanic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/bin/Debug/GDMechanic.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GDMechanic/bin/Debug/GDMechanic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/bin/Debug/GDMechanic.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GDMechanic/obj/Debug/GDMechanic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/obj/Debug/GDMechanic.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GDMechanic/obj/Debug/GDMechanic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/obj/Debug/GDMechanic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDMechanic/bin/Release/GDMechanic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/bin/Release/GDMechanic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDMechanic/bin/Release/GDMechanic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/bin/Release/GDMechanic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDMechanic/bin/Release/GDMechanic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/bin/Release/GDMechanic.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDMechanic/obj/Release/GDMechanic.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/obj/Release/GDMechanic.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDMechanic/obj/Release/GDMechanic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/obj/Release/GDMechanic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDMechanic/obj/Release/GDMechanic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GDMechanic/obj/Release/GDMechanic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package.nuspec" beforeDir="false" afterPath="$PROJECT_DIR$/Package.nuspec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +66,8 @@
         <counts>
           <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -146,7 +147,6 @@
               <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
               <folding>
                 <marker date="1536454228144" expanded="false" signature="6:86" ph="..." />
-                <marker date="1536454228144" expanded="true" signature="126:1227" ph="{...}" />
                 <marker date="1536454228144" expanded="true" signature="262:1225" ph="{...}" />
                 <marker date="1536454228144" expanded="true" signature="313:716" ph="/// Returns a reference to a child based on match type. ... " />
                 <marker date="1536454228144" expanded="true" signature="781:813" ph="{...}" />
@@ -161,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GDMechanic/Rng.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="1131">
+              <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
               <folding>
                 <marker date="1537133779328" expanded="false" signature="6:47" ph="..." />
                 <marker date="1537133779328" expanded="true" signature="69:2879" ph="{...}" />
@@ -202,7 +202,6 @@
             <state relative-caret-position="418">
               <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
-                <marker date="1537587941361" expanded="true" signature="45:452" ph="{...}" />
                 <marker date="1537587941361" expanded="true" signature="86:450" ph="{...}" />
                 <marker date="1537587941361" expanded="true" signature="145:202" ph="{...}" />
                 <marker date="1537587941361" expanded="true" signature="266:447" ph="{...}" />
@@ -218,7 +217,6 @@
             <state relative-caret-position="304">
               <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
-                <marker date="1537587854229" expanded="true" signature="45:446" ph="{...}" />
                 <marker date="1537587854229" expanded="true" signature="86:444" ph="{...}" />
                 <marker date="1537587854229" expanded="true" signature="145:198" ph="{...}" />
                 <marker date="1537587854229" expanded="true" signature="260:441" ph="{...}" />
@@ -228,11 +226,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GDMechanic/Extensions/NodeExtensions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="1273">
+              <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
               <folding>
                 <marker date="1537590183373" expanded="false" signature="6:79" ph="..." />
                 <marker date="1537590183373" expanded="true" signature="112:3189" ph="{...}" />
@@ -261,13 +259,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GDMechanic/Wiring/Core.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="741">
               <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
               <folding>
                 <marker date="1537130131578" expanded="false" signature="6:171" ph="..." />
+                <marker date="1537130131578" expanded="true" signature="200:2341" ph="{...}" />
                 <marker date="1537130131578" expanded="true" signature="204:284" ph="/// The foundation of GDMechanic's wiring system. ... " />
                 <marker date="1537130131578" expanded="true" signature="311:2339" ph="{...}" />
                 <marker date="1537130131578" expanded="true" signature="705:1591" ph="{...}" />
@@ -416,6 +415,26 @@
               <item name="GDMechanic" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Extensions" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GDMechanic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GDMechanic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Wiring" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GDMechanic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GDMechanic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Wiring" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Attributes" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GDMechanic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GDMechanic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Wiring" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CachedNodeInfos" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -466,11 +485,12 @@
       <workItem from="1537241889429" duration="701000" />
       <workItem from="1537500826009" duration="1376000" />
       <workItem from="1537587522929" duration="2698000" />
+      <workItem from="1537593262074" duration="620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37010000" />
+    <option name="totallyTimeSpent" value="37630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,9 +502,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-632" width="1934" height="2137" extended-state="0" />
+    <frame x="1913" y="-632" width="1934" height="2137" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28655282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28975454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -748,34 +769,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GDMechanic/Wiring/Core.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-          <folding>
-            <marker date="1537130131578" expanded="false" signature="6:171" ph="..." />
-            <marker date="1537130131578" expanded="true" signature="204:284" ph="/// The foundation of GDMechanic's wiring system. ... " />
-            <marker date="1537130131578" expanded="true" signature="311:2339" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="705:1591" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="1122:1385" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="1275:1380" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="1327:1374" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="1597:1816" ph="/// Wires all GDMechanic attributes embedded in this node's class definition. ... " />
-            <marker date="1537130131578" expanded="true" signature="1858:2117" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="1968:2005" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="2013:2110" ph="{...}" />
-            <marker date="1537130131578" expanded="true" signature="2171:2336" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GDMechanic/Wiring/Attributes/ChildAttribute.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
           <folding>
             <marker date="1536454228144" expanded="false" signature="6:86" ph="..." />
-            <marker date="1536454228144" expanded="true" signature="126:1227" ph="{...}" />
             <marker date="1536454228144" expanded="true" signature="262:1225" ph="{...}" />
             <marker date="1536454228144" expanded="true" signature="313:716" ph="/// Returns a reference to a child based on match type. ... " />
             <marker date="1536454228144" expanded="true" signature="781:813" ph="{...}" />
@@ -786,10 +785,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GDMechanic/Extensions/Vector2Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <marker date="1537587941361" expanded="true" signature="86:450" ph="{...}" />
+            <marker date="1537587941361" expanded="true" signature="145:202" ph="{...}" />
+            <marker date="1537587941361" expanded="true" signature="266:447" ph="{...}" />
+            <marker date="1537587941361" expanded="true" signature="369:422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDMechanic/Extensions/Vector3Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <marker date="1537587854229" expanded="true" signature="86:444" ph="{...}" />
+            <marker date="1537587854229" expanded="true" signature="145:198" ph="{...}" />
+            <marker date="1537587854229" expanded="true" signature="260:441" ph="{...}" />
+            <marker date="1537587854229" expanded="true" signature="363:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDMechanic/Extensions/NodeExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <folding>
+            <marker date="1537590183373" expanded="false" signature="6:79" ph="..." />
+            <marker date="1537590183373" expanded="true" signature="112:3189" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="150:3187" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="232:282" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="367:420" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="505:595" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="678:790" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="870:938" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="1149:1275" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="1499:1767" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="1837:1952" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2034:2198" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2104:2194" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2141:2189" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2287:2337" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2430:2484" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2552:2619" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2688:2878" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2709:2874" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2767:2850" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="2950:3021" ph="{...}" />
+            <marker date="1537590183373" expanded="true" signature="3091:3184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GDMechanic/Rng.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="1131">
+          <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
           <folding>
             <marker date="1537133779328" expanded="false" signature="6:47" ph="..." />
             <marker date="1537133779328" expanded="true" signature="69:2879" ph="{...}" />
@@ -822,61 +878,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GDMechanic/Extensions/Vector2Extensions.cs">
+    <entry file="file://$PROJECT_DIR$/GDMechanic/Wiring/Core.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="741">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
           <folding>
-            <marker date="1537587941361" expanded="true" signature="45:452" ph="{...}" />
-            <marker date="1537587941361" expanded="true" signature="86:450" ph="{...}" />
-            <marker date="1537587941361" expanded="true" signature="145:202" ph="{...}" />
-            <marker date="1537587941361" expanded="true" signature="266:447" ph="{...}" />
-            <marker date="1537587941361" expanded="true" signature="369:422" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GDMechanic/Extensions/Vector3Extensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <marker date="1537587854229" expanded="true" signature="45:446" ph="{...}" />
-            <marker date="1537587854229" expanded="true" signature="86:444" ph="{...}" />
-            <marker date="1537587854229" expanded="true" signature="145:198" ph="{...}" />
-            <marker date="1537587854229" expanded="true" signature="260:441" ph="{...}" />
-            <marker date="1537587854229" expanded="true" signature="363:416" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GDMechanic/Extensions/NodeExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <marker date="1537590183373" expanded="false" signature="6:79" ph="..." />
-            <marker date="1537590183373" expanded="true" signature="112:3189" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="150:3187" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="232:282" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="367:420" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="505:595" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="678:790" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="870:938" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="1149:1275" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="1499:1767" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="1837:1952" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2034:2198" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2104:2194" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2141:2189" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2287:2337" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2430:2484" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2552:2619" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2688:2878" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2709:2874" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2767:2850" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="2950:3021" ph="{...}" />
-            <marker date="1537590183373" expanded="true" signature="3091:3184" ph="{...}" />
+            <marker date="1537130131578" expanded="false" signature="6:171" ph="..." />
+            <marker date="1537130131578" expanded="true" signature="200:2341" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="204:284" ph="/// The foundation of GDMechanic's wiring system. ... " />
+            <marker date="1537130131578" expanded="true" signature="311:2339" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="705:1591" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="1122:1385" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="1275:1380" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="1327:1374" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="1597:1816" ph="/// Wires all GDMechanic attributes embedded in this node's class definition. ... " />
+            <marker date="1537130131578" expanded="true" signature="1858:2117" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="1968:2005" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="2013:2110" ph="{...}" />
+            <marker date="1537130131578" expanded="true" signature="2171:2336" ph="{...}" />
           </folding>
         </state>
       </provider>
