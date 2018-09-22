@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GDMechanic
 {
@@ -68,7 +69,7 @@ namespace GDMechanic
 		/// </summary>
 		/// <param name="from"></param>
 		/// <param name="to"></param>
-		public static float RandRange(int from, int to)
+		public static int RandRange(int from, int to)
 		{
 			return _rand.Next(from, to);
 		}
@@ -98,6 +99,23 @@ namespace GDMechanic
 		public static bool Chance(float ratio)
 		{
 			return Randf() < ratio;
+		}
+		
+		/// <summary>
+		/// Shuffles the contents of the given list.
+		/// </summary>
+		/// <param name="list"></param>
+		/// <typeparam name="T"></typeparam>
+		public static void Shuffle<T>(this IList<T> list)  
+		{  
+			int n = list.Count;  
+			while (n > 1) {  
+				n--;  
+				int k = _rand.Next(n + 1);  
+				T value = list[k];  
+				list[k] = list[n];  
+				list[n] = value;  
+			}  
 		}
 
 		private static float NextFloat(this Random rand)

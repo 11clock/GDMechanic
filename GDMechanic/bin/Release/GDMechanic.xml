@@ -65,6 +65,13 @@
             </summary>
             <param name="ratio"></param>
         </member>
+        <member name="M:GDMechanic.Rng.Shuffle``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Shuffles the contents of the given list.
+            </summary>
+            <param name="list"></param>
+            <typeparam name="T"></typeparam>
+        </member>
         <member name="T:GDMechanic.TimerSystem">
             <summary>
             Node that organizes a collection of timers for easy access through delegates.
